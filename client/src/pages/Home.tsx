@@ -75,7 +75,7 @@ const plans: Record<TabKey, PlanGroup> = {
     title: "Veículos leves",
     description: "Rastreamento inteligente para carros e motos, com proteção e controle em cada trajeto.",
     icon: Navigation,
-    image: "/site-assets/vertice-personal-vehicle_c9ae93e8.webp",
+    image: "/site-assets/vertice-veiculos-leves-generated.png",
     plans: [
       {
         name: "Veículos leves",
@@ -100,7 +100,7 @@ const plans: Record<TabKey, PlanGroup> = {
     title: "Proteção & Monitoramento",
     description: "Monitoramento com TEIA para pessoas, crianças, idosos, Alzheimer, TDA, TEA e pets.",
     icon: UserRound,
-    image: "/site-assets/vertice-pets-people_2d9c8fa0.webp",
+    image: "/site-assets/vertice-pessoas-pets-generated.png",
     plans: [
       {
         name: "Proteção & Monitoramento",
@@ -125,7 +125,7 @@ const plans: Record<TabKey, PlanGroup> = {
     title: "Linha pesada",
     description: "Visibilidade operacional para vans, ônibus e caminhões, com telemetria e gestão em uma única visão.",
     icon: Truck,
-    image: "/site-assets/vertice-fleet_12944b75.webp",
+    image: "/site-assets/vertice-linha-pesada-generated.png",
     plans: [
       {
         name: "Linha pesada",
@@ -152,7 +152,7 @@ const plans: Record<TabKey, PlanGroup> = {
     title: "Rastreamento Náutico",
     description: "Rastreamento de embarcações em tempo real, com localização pelo aplicativo e acompanhamento dos seus deslocamentos.",
     icon: Anchor,
-    image: "/site-assets/vertice-nautico-barcos-jetskis.png",
+    image: "/site-assets/vertice-nautico-generated.png",
     plans: [
       {
         name: "Rastreamento Náutico",
@@ -174,10 +174,10 @@ const plans: Record<TabKey, PlanGroup> = {
 };
 
 const solutionCards = [
-  { eyebrow: "VEÍCULOS LEVES", title: "Carros e motos", text: "Proteção contra roubo, localização em tempo real e mais tranquilidade em cada trajeto.", image: "/site-assets/vertice-personal-vehicle_c9ae93e8.webp", icon: Navigation },
-  { eyebrow: "PROTEÇÃO & MONITORAMENTO", title: "Pessoas, crianças, idosos e pets", text: "TEIA para acompanhar pessoas, Alzheimer, TDA, TEA e pets com localização, cercas inteligentes e alertas no app.", image: "/site-assets/vertice-pets-people_2d9c8fa0.webp", icon: UserRound },
-  { eyebrow: "LINHA PESADA", title: "Vans, ônibus e caminhões", text: "Visibilidade total para reduzir custos, melhorar a condução e manter sua operação eficiente.", image: "/site-assets/vertice-fleet_12944b75.webp", icon: Truck },
-  { eyebrow: "RASTREAMENTO NÁUTICO", title: "Barcos, lanchas e jet skis", text: "Acompanhe sua embarcação em tempo real, com localização pelo aplicativo e histórico dos deslocamentos.", image: "/site-assets/vertice-nautico-barcos-jetskis.png", icon: Anchor },
+  { eyebrow: "VEÍCULOS LEVES", title: "Carros e motos", text: "Proteção contra roubo, localização em tempo real e mais tranquilidade em cada trajeto.", image: "/site-assets/vertice-veiculos-leves-generated.png", icon: Navigation },
+  { eyebrow: "PROTEÇÃO & MONITORAMENTO", title: "Pessoas, crianças, idosos e pets", text: "TEIA para acompanhar pessoas, Alzheimer, TDA, TEA e pets com localização, cercas inteligentes e alertas no app.", image: "/site-assets/vertice-pessoas-pets-generated.png", icon: UserRound },
+  { eyebrow: "LINHA PESADA", title: "Vans, ônibus e caminhões", text: "Visibilidade total para reduzir custos, melhorar a condução e manter sua operação eficiente.", image: "/site-assets/vertice-linha-pesada-generated.png", icon: Truck },
+  { eyebrow: "RASTREAMENTO NÁUTICO", title: "Barcos, lanchas e jet skis", text: "Acompanhe sua embarcação em tempo real, com localização pelo aplicativo e histórico dos deslocamentos.", image: "/site-assets/vertice-nautico-generated.png", icon: Anchor },
 ];
 
 const allPlans = [plans.personal, plans.fleet, plans.care, plans.nautical].flatMap((group) =>
