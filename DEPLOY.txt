@@ -1,17 +1,10 @@
-VERSAO CORRIGIDA - VERTICE / VERCEL
+VÉRTICE TECNOLOGIA — VERCEL
 
-Esta versão foi refeita a partir do ZIP ORIGINAL do Manus.
+Correção do deploy:
+- removido @builder.io/vite-plugin-jsx-loc (plugin do ambiente Manus/Builder)
+- removido jsxLocPlugin() do vite.config.ts
+- mantido React/Vite original e o layout do site
+- mantidas as imagens locais, incluindo o hero original e a imagem náutica
+- Vercel: npm install -> npm run build -> dist/public
 
-- CSS original preservado
-- Hero usa a imagem ORIGINAL extraída da cópia do Manus:
-  /site-assets/vertice-hero-blue_a3170088.webp
-- Imagens originais do Manus de veículos, pessoas/pets e frota estão locais
-- Imagem náutica nova está local
-- Nenhum /manus-storage/ permanece no código
-- Runtime/debug do Manus removidos
-
-VERCEL
-Build Command: npm run build
-Output Directory: dist/public
-
-No GitHub, substitua os arquivos antigos pelos arquivos desta pasta.
+Suba o CONTEÚDO desta pasta na raiz do repositório GitHub e faça um novo deploy.
