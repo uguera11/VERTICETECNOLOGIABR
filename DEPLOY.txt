@@ -1,0 +1,9 @@
+VÉRTICE TECNOLOGIA — DEPLOY VERCEL
+
+1. Extraia este ZIP.
+2. Suba TODO o conteúdo desta pasta na raiz do repositório GitHub.
+3. Na Vercel, importe/conecte o repositório.
+4. A Vercel usará automaticamente: npm install -> npm run build -> dist/public.
+
+Não envie apenas o ZIP para dentro do repositório.
+Não use a versão estática anterior.
