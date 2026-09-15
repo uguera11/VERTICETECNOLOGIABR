@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" role="img" aria-label="Vértice Tecnologia">
+  <defs>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d9ff"/><stop offset="1" stop-color="#1687ff"/></linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".58" stop-color="#d7e1ea"/><stop offset="1" stop-color="#8da4b8"/></linearGradient>
+  </defs>
+  <g transform="translate(8 4)">
+    <polygon points="54,8 112,8 83,34" fill="url(#cyan)"/>
+    <polygon points="20,10 78,40 78,88 58,65" fill="url(#silver)"/>
+    <polygon points="146,10 88,40 88,88 108,65" fill="url(#silver)"/>
+    <path d="M78 40 L83 46 L88 40 L88 96 L83 105 L78 96Z" fill="#f4f8fb" opacity=".96"/>
+  </g>
+  <text x="165" y="56" fill="#f4f7fb" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="800" letter-spacing="1">VÉRTICE</text>
+  <text x="168" y="82" fill="#55d6ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="5">TECNOLOGIA</text>
+</svg>
