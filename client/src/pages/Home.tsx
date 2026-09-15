@@ -75,7 +75,7 @@ const plans: Record<TabKey, PlanGroup> = {
     title: "Veículos leves",
     description: "Rastreamento inteligente para carros e motos, com proteção e controle em cada trajeto.",
     icon: Navigation,
-    image: "/site-assets/vertice-personal-vehicle_c9ae93e8.jpg",
+    image: "/site-assets/vertice-personal-vehicle-manus.webp",
     plans: [
       {
         name: "Veículos leves",
@@ -100,7 +100,7 @@ const plans: Record<TabKey, PlanGroup> = {
     title: "Proteção & Monitoramento",
     description: "Monitoramento com TEIA para pessoas, crianças, idosos, Alzheimer, TDA, TEA e pets.",
     icon: UserRound,
-    image: "/site-assets/vertice-pets-people_2d9c8fa0.jpg",
+    image: "/site-assets/vertice-pets-people-manus.webp",
     plans: [
       {
         name: "Proteção & Monitoramento",
@@ -125,7 +125,7 @@ const plans: Record<TabKey, PlanGroup> = {
     title: "Linha pesada",
     description: "Visibilidade operacional para vans, ônibus e caminhões, com telemetria e gestão em uma única visão.",
     icon: Truck,
-    image: "/site-assets/vertice-fleet_12944b75.jpg",
+    image: "/site-assets/vertice-fleet-manus.webp",
     plans: [
       {
         name: "Linha pesada",
@@ -174,9 +174,9 @@ const plans: Record<TabKey, PlanGroup> = {
 };
 
 const solutionCards = [
-  { eyebrow: "VEÍCULOS LEVES", title: "Carros e motos", text: "Proteção contra roubo, localização em tempo real e mais tranquilidade em cada trajeto.", image: "/site-assets/vertice-personal-vehicle_c9ae93e8.jpg", icon: Navigation },
-  { eyebrow: "PROTEÇÃO & MONITORAMENTO", title: "Pessoas, crianças, idosos e pets", text: "TEIA para acompanhar pessoas, Alzheimer, TDA, TEA e pets com localização, cercas inteligentes e alertas no app.", image: "/site-assets/vertice-pets-people_2d9c8fa0.jpg", icon: UserRound },
-  { eyebrow: "LINHA PESADA", title: "Vans, ônibus e caminhões", text: "Visibilidade total para reduzir custos, melhorar a condução e manter sua operação eficiente.", image: "/site-assets/vertice-fleet_12944b75.jpg", icon: Truck },
+  { eyebrow: "VEÍCULOS LEVES", title: "Carros e motos", text: "Proteção contra roubo, localização em tempo real e mais tranquilidade em cada trajeto.", image: "/site-assets/vertice-personal-vehicle-manus.webp", icon: Navigation },
+  { eyebrow: "PROTEÇÃO & MONITORAMENTO", title: "Pessoas, crianças, idosos e pets", text: "TEIA para acompanhar pessoas, Alzheimer, TDA, TEA e pets com localização, cercas inteligentes e alertas no app.", image: "/site-assets/vertice-pets-people-manus.webp", icon: UserRound },
+  { eyebrow: "LINHA PESADA", title: "Vans, ônibus e caminhões", text: "Visibilidade total para reduzir custos, melhorar a condução e manter sua operação eficiente.", image: "/site-assets/vertice-fleet-manus.webp", icon: Truck },
   { eyebrow: "RASTREAMENTO NÁUTICO", title: "Barcos, lanchas e jet skis", text: "Acompanhe sua embarcação em tempo real, com localização pelo aplicativo e histórico dos deslocamentos.", image: "/nautico-barcos-lanchas-jetskis.png", icon: Anchor },
 ];
 
@@ -206,7 +206,7 @@ const faqs = [
 function BrandMark() {
   return (
     <div className="brand-mark" aria-label="Vértice Tecnologia MG">
-      <img className="official-logo" src="/site-assets/vertice-logo-oficial_97ee8fd8.png" alt="Vértice Tecnologia MG" />
+      <img className="official-logo" src="/site-assets/vertice-logo-oficial-manus.png" alt="Vértice Tecnologia MG" />
     </div>
   );
 }

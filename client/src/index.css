@@ -131,9 +131,9 @@ h1 em, h2 em { color: #55d6ff; font-style: normal; }
 
 
 /* Blue technology update */
-.hero-section { background: linear-gradient(90deg, rgba(5,18,33,.98) 0%, rgba(5,18,33,.88) 43%, rgba(7,31,52,.72) 100%), url('/site-assets/vertice-hero-blue_a3170088.jpg') center/cover; }
+.hero-section { background: linear-gradient(90deg, rgba(5,18,33,.98) 0%, rgba(5,18,33,.88) 43%, rgba(7,31,52,.72) 100%), url('/site-assets/vertice-hero-manus.webp') center/cover; }
 .hero-section:before { opacity: .1; }
-.hero-photo-bg { position:absolute; inset: 7% 4% 8% 3%; border:1px solid rgba(85,214,255,.18); background: linear-gradient(135deg, rgba(6,24,42,.72), rgba(10,66,97,.25)), url('/site-assets/vertice-hero-blue_a3170088.jpg') center/cover; opacity:.55; filter:saturate(.9); clip-path:polygon(10% 0,100% 0,100% 88%,90% 100%,0 100%,0 12%); }
+.hero-photo-bg { position:absolute; inset: 7% 4% 8% 3%; border:1px solid rgba(85,214,255,.18); background: linear-gradient(135deg, rgba(6,24,42,.72), rgba(10,66,97,.25)), url('/site-assets/vertice-hero-manus.webp') center/cover; opacity:.55; filter:saturate(.9); clip-path:polygon(10% 0,100% 0,100% 88%,90% 100%,0 100%,0 12%); }
 .hero-art-wrap { isolation:isolate; }
 .hero-visual { z-index:1; background:linear-gradient(145deg, rgba(8,35,59,.65), rgba(5,19,33,.35)); }
 .hero-art-caption, .hero-side-note, .hero-visual, .hero-photo-bg { position: absolute; }
