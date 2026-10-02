@@ -174,10 +174,10 @@ const plans: Record<TabKey, PlanGroup> = {
 };
 
 const solutionCards = [
-  { eyebrow: "VEÍCULOS LEVES", title: "Carros e motos", text: "Proteção contra roubo, localização em tempo real e mais tranquilidade em cada trajeto.", image: "/site-assets/vertice-veiculos-leves-generated.png", icon: Navigation },
-  { eyebrow: "PROTEÇÃO & MONITORAMENTO", title: "Pessoas, crianças, idosos e pets", text: "TEIA para acompanhar pessoas, Alzheimer, TDA, TEA e pets com localização, cercas inteligentes e alertas no app.", image: "/site-assets/vertice-pessoas-pets-generated.png", icon: UserRound },
-  { eyebrow: "LINHA PESADA", title: "Vans, ônibus e caminhões", text: "Visibilidade total para reduzir custos, melhorar a condução e manter sua operação eficiente.", image: "/site-assets/vertice-linha-pesada-generated.png", icon: Truck },
-  { eyebrow: "RASTREAMENTO NÁUTICO", title: "Barcos, lanchas e jet skis", text: "Acompanhe sua embarcação em tempo real, com localização pelo aplicativo e histórico dos deslocamentos.", image: "/site-assets/vertice-nautico-generated.png", icon: Anchor },
+  { eyebrow: "VEÍCULOS LEVES", title: "Carros e motos", seoTitle: "Rastreamento de carros e motos em Belo Horizonte", text: "Proteção contra roubo, localização em tempo real e mais tranquilidade em cada trajeto, com atendimento em Belo Horizonte e Grande BH.", image: "/site-assets/vertice-veiculos-leves-generated.png", icon: Navigation },
+  { eyebrow: "PROTEÇÃO & MONITORAMENTO", title: "Pessoas, crianças, idosos e pets", seoTitle: "Monitoramento de pessoas, crianças, idosos e pets", text: "TEIA para acompanhar pessoas, Alzheimer, TDA, TEA e pets com localização, cercas inteligentes e alertas no app em Belo Horizonte e Minas Gerais.", image: "/site-assets/vertice-pessoas-pets-generated.png", icon: UserRound },
+  { eyebrow: "LINHA PESADA", title: "Vans, ônibus e caminhões", seoTitle: "Rastreamento de vans, ônibus e caminhões", text: "Gestão e rastreamento de frotas para Belo Horizonte, Contagem, Betim e outras cidades de Minas Gerais, com mais controle da operação.", image: "/site-assets/vertice-linha-pesada-generated.png", icon: Truck },
+  { eyebrow: "RASTREAMENTO NÁUTICO", title: "Barcos, lanchas e jet skis", seoTitle: "Rastreamento de barcos, lanchas e jet skis", text: "Acompanhe sua embarcação em tempo real pelo aplicativo, com histórico de deslocamentos e tecnologia de monitoramento.", image: "/site-assets/vertice-nautico-generated.png", icon: Anchor },
 ];
 
 const allPlans = [plans.personal, plans.fleet, plans.care, plans.nautical].flatMap((group) =>
@@ -206,7 +206,7 @@ const faqs = [
 function BrandMark() {
   return (
     <div className="brand-mark" aria-label="Vértice Tecnologia MG">
-      <img className="official-logo" src="/site-assets/vertice-logo-oficial_97ee8fd8.png" alt="Vértice Tecnologia MG" />
+      <img className="official-logo" src="/site-assets/vertice-logo-oficial_97ee8fd8.png" alt="Vértice Tecnologia - rastreamento veicular em Belo Horizonte e Minas Gerais" />
     </div>
   );
 }
@@ -289,8 +289,8 @@ export default function Home() {
         <div className="container hero-grid">
           <div className="hero-copy">
             <div className="eyebrow"><span className="eyebrow-line" /> TECNOLOGIA QUE CUIDA DO SEU MOVIMENTO</div>
-            <h1>Você no controle.<br /><em>O tempo todo.</em></h1>
-            <p className="hero-intro">Rastreamento inteligente para veículos, pessoas e operações. Porque segurança de verdade é saber — não imaginar.</p>
+            <h1><span className="hero-seo-title">Rastreamento veicular em Belo Horizonte e Minas Gerais</span>Você no controle.<br /><em>O tempo todo.</em></h1>
+            <p className="hero-intro">Rastreamento inteligente para carros, motos, frotas, pessoas e operações em Belo Horizonte, Grande BH e Minas Gerais. Localização em tempo real, alertas e mais controle pelo aplicativo.</p>
             <div className="hero-actions">
               <a href={whatsAppLink("Olá, quero encontrar o melhor plano de rastreamento para mim.")} target="_blank" rel="noreferrer" className="button button-primary">Encontrar meu plano <ArrowDownRight size={17} /></a>
               <a href="#como-funciona" className="text-link">Entenda como funciona <ChevronRight size={16} /></a>
@@ -322,8 +322,8 @@ export default function Home() {
       <section className="section how-section" id="como-funciona">
         <div className="container">
           <div className="section-heading split-heading">
-            <div><span className="section-kicker">01 / SIMPLES ASSIM</span><h2>Proteção inteligente,<br /><em>sem complicação.</em></h2></div>
-            <p>Do primeiro sinal ao acompanhamento diário, tudo foi pensado para você ter mais clareza, mais controle e menos preocupação.</p>
+            <div><span className="section-kicker">01 / SIMPLES ASSIM</span><h2>Rastreamento inteligente,<br /><em>sem complicação.</em></h2></div>
+            <p>Do rastreador veicular ao acompanhamento diário, tudo foi pensado para você ter localização em tempo real, mais controle e mais segurança em Belo Horizonte e região.</p>
           </div>
           <div className="steps-grid">
             <article className="step-card"><div className="step-number">01</div><div className="step-icon"><Crosshair /></div><h3>Escolha o que importa</h3><p>Encontre a solução certa para seu veículo, sua família ou sua operação.</p><span className="step-line" /></article>
@@ -336,13 +336,13 @@ export default function Home() {
       <section className="section solutions-section" id="solucoes">
         <div className="container">
           <div className="section-heading split-heading">
-            <div><span className="section-kicker">02 / FEITO PARA A VIDA REAL</span><h2>Um rastreador.<br /><em>Várias possibilidades.</em></h2></div>
-            <p>Escolha o cenário que mais combina com você. A Vértice transforma localização em proteção, cuidado e eficiência.</p>
+            <div><span className="section-kicker">02 / FEITO PARA A VIDA REAL</span><h2>Rastreamento para veículos,<br /><em>frotas, pessoas e embarcações.</em></h2></div>
+            <p>Soluções de rastreamento para carros, motos, vans, ônibus, caminhões, pessoas, pets e embarcações, com atendimento em Belo Horizonte, Grande BH e Minas Gerais.</p>
           </div>
           <div className="solution-cards">
-            {solutionCards.map(({ eyebrow, title, text, image, icon: Icon }) => <article className="solution-card" key={title}>
-              <div className="solution-image"><img src={image} alt={title} /><span className="solution-icon"><Icon size={18} /></span></div>
-              <div className="solution-content"><span className="solution-eyebrow">{eyebrow}</span><h3>{title}</h3><p>{text}</p><a href={whatsAppLink(`Olá, quero saber mais sobre rastreamento para ${title}.`)} target="_blank" rel="noreferrer" className="text-link">Conhecer esta solução <ArrowUpRight size={15} /></a></div>
+            {solutionCards.map(({ eyebrow, title, seoTitle, text, image, icon: Icon }) => <article className="solution-card" key={title}>
+              <div className="solution-image"><img src={image} alt={seoTitle} loading="lazy" decoding="async" /><span className="solution-icon"><Icon size={18} /></span></div>
+              <div className="solution-content"><span className="solution-eyebrow">{eyebrow}</span><h3>{seoTitle}</h3><p>{text}</p><a href={whatsAppLink(`Olá, quero saber mais sobre rastreamento para ${title}.`)} target="_blank" rel="noreferrer" className="text-link">Conhecer esta solução <ArrowUpRight size={15} /></a></div>
             </article>)}
           </div>
         </div>
@@ -351,7 +351,7 @@ export default function Home() {
       <section className="regional-section" id="atendimento">
         <div className="container regional-inner">
           <div className="regional-mark"><MapPin size={22} /><span>ATENDIMENTO REGIONAL</span></div>
-          <div className="regional-copy"><h2>Presença local.<br /><em>Controle onde importa.</em></h2><p>Instalação de rastreadores, telemetria e soluções de monitoramento em Belo Horizonte e toda a Grande BH, além de diversas cidades do interior de Minas Gerais.</p></div>
+          <div className="regional-copy"><h2>Rastreamento em Belo Horizonte,<br /><em>Grande BH e Minas Gerais.</em></h2><p>Instalação de rastreadores veiculares, rastreamento de frotas, telemetria e soluções de monitoramento em Belo Horizonte, Contagem, Betim e toda a Grande BH, além de diversas cidades do interior de Minas Gerais.</p></div>
           <div className="regional-map-wrap"><MapView className="regional-map" initialCenter={{ lat: -19.9191, lng: -43.9386 }} initialZoom={9} /><div className="coverage-visual" aria-hidden="true"><span className="coverage-title">MAPA DE COBERTURA</span><span className="coverage-route route-one" /><span className="coverage-route route-two" /><span className="coverage-route route-three" /><span className="coverage-node node-bh"><i />BH</span><span className="coverage-node node-contagem"><i />Contagem</span><span className="coverage-node node-betim"><i />Betim</span><span className="coverage-node node-itauna"><i />Itaúna</span><span className="coverage-node node-divinopolis"><i />Divinópolis</span></div><span className="regional-map-label"><MapPin size={13} /> MINAS GERAIS / ÁREA DE ATENDIMENTO</span></div>
           <div className="regional-cities"><span>BH</span><span>Contagem</span><span>Betim</span><span>Mateus Leme</span><span>Juatuba</span><span>Itaúna</span><span>Divinópolis</span><span>São Gonçalo do Pará</span><span>Abaeté e região</span></div>
           <div className="regional-address"><MapPin size={17} /><div><span>SEDE VÉRTICE TECNOLOGIA</span><p>Rua Paraíba, 651 · Belo Horizonte, MG · CEP 30130-140</p><a href="https://www.google.com/maps/search/?api=1&query=Rua%20Para%C3%ADba%2C%20651%2C%20Belo%20Horizonte%2C%20MG%2C%2030130-140" target="_blank" rel="noreferrer" className="text-link">Abrir endereço no mapa <ArrowUpRight size={15} /></a></div></div>
@@ -361,7 +361,7 @@ export default function Home() {
 
       <section className="section benefits-section" id="beneficios">
         <div className="container">
-          <div className="section-heading benefits-heading"><div><span className="section-kicker">03 / MAIS DO QUE LOCALIZAR</span><h2>Informação que<br /><em>vira tranquilidade.</em></h2></div><p>O rastreador trabalha nos bastidores para você tomar decisões melhores, no momento certo.</p></div>
+          <div className="section-heading benefits-heading"><div><span className="section-kicker">03 / MAIS DO QUE LOCALIZAR</span><h2>Informação que<br /><em>vira tranquilidade.</em></h2></div><p>O rastreador trabalha nos bastidores para transformar localização, alertas e histórico de trajetos em decisões melhores no dia a dia.</p></div>
           <div className="benefit-grid"><article><span className="benefit-number">01</span><ShieldCheck size={22} /><h3>Alertas que importam</h3><p>Receba notificações de ignição, movimento, velocidade e saída de área sem excesso de ruído.</p></article><article><span className="benefit-number">02</span><Route size={22} /><h3>Histórico para entender</h3><p>Revise trajetos e transforme cada deslocamento em contexto para cuidar, proteger e melhorar.</p></article><article><span className="benefit-number">03</span><Smartphone size={22} /><h3>Controle na sua mão</h3><p>Uma plataforma clara para acompanhar veículos, pessoas e pets de onde você estiver.</p></article><article><span className="benefit-number">04</span><Headphones size={22} /><h3>Gente de verdade</h3><p>Suporte humano para orientar a instalação e ajudar quando você precisar.</p></article></div>
         </div>
       </section>
@@ -369,8 +369,8 @@ export default function Home() {
       <section className="section plans-section" id="planos">
         <div className="container">
           <div className="section-heading plans-heading">
-            <div><span className="section-kicker">04 / ENCONTRE SEU PONTO DE CONTROLE</span><h2>Compare os planos<br /><em>de uma vez.</em></h2></div>
-            <p>Todos lado a lado, para você escolher com clareza a proteção certa para o seu momento.</p>
+            <div><span className="section-kicker">04 / ENCONTRE SEU PONTO DE CONTROLE</span><h2>Planos de rastreamento<br /><em>para cada necessidade.</em></h2></div>
+            <p>Compare opções de rastreamento veicular, proteção 24h, monitoramento de pessoas e gestão de frotas para escolher a solução certa.</p>
           </div>
           <div className="plans-grid all-plans-grid">
             {allPlans.map((plan, index) => <article key={plan.name} className={plan.popular ? "plan-card popular" : "plan-card"}>
@@ -403,7 +403,7 @@ export default function Home() {
 
       <section className="cta-section" id="contato"><div className="container cta-inner"><div className="cta-orb" /><div className="cta-copy"><span className="section-kicker">A PRÓXIMA DECISÃO É SUA</span><h2>Mais presença.<br /><em>Mais tranquilidade.</em></h2><p>Descubra como a Vértice pode transformar a forma como você cuida do que importa.</p></div><div className="cta-action"><a href={whatsAppLink("Olá, quero encontrar meu plano ideal na Vértice Tecnologia.")} target="_blank" rel="noreferrer" className="button button-primary large">Quero encontrar meu plano <ArrowUpRight size={18} /></a><span>Resposta humana. Sem robô, sem enrolação.</span></div></div></section>
 
-      <footer className="site-footer"><div className="container footer-top"><BrandMark /><div className="footer-nav"><a href="#como-funciona">Como funciona</a><a href="#planos">Planos</a><a href="#atendimento">Atendimento</a><a href="#tecnologia">Tecnologia</a><a href="#duvidas">Dúvidas</a></div><span className="footer-status"><i /> Sistema operacional</span></div><div className="container footer-bottom"><span>© 2025 Vértice Tecnologia. Todos os direitos reservados.</span><span>Feito para você estar presente, mesmo de longe.</span><a href="#top">Voltar ao topo <ArrowUpRight size={14} /></a></div></footer>
+      <footer className="site-footer"><div className="container footer-top"><BrandMark /><div className="footer-nav"><a href="#como-funciona">Como funciona</a><a href="#planos">Planos</a><a href="#atendimento">Atendimento</a><a href="#tecnologia">Tecnologia</a><a href="#duvidas">Dúvidas</a></div><span className="footer-status"><i /> Sistema operacional</span></div><div className="container footer-bottom"><span>© 2026 Vértice Tecnologia. Todos os direitos reservados.</span><span>Feito para você estar presente, mesmo de longe.</span><a href="#top">Voltar ao topo <ArrowUpRight size={14} /></a></div></footer>
     </main>
   );
 }

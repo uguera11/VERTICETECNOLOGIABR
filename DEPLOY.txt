@@ -1,10 +1,22 @@
-VÉRTICE TECNOLOGIA — VERCEL
+VÉRTICE TECNOLOGIA — VERCEL + SEO
 
-Correção do deploy:
-- removido @builder.io/vite-plugin-jsx-loc (plugin do ambiente Manus/Builder)
-- removido jsxLocPlugin() do vite.config.ts
-- mantido React/Vite original e o layout do site
-- mantidas as imagens locais, incluindo o hero original e a imagem náutica
-- Vercel: npm install -> npm run build -> dist/public
+Projeto React/Vite preparado para deploy na Vercel.
 
-Suba o CONTEÚDO desta pasta na raiz do repositório GitHub e faça um novo deploy.
+SEO aplicado:
+- title e meta description focados em rastreamento em Belo Horizonte e Minas Gerais
+- H1, H2 e H3 com termos de serviço e localização de forma natural
+- dados estruturados LocalBusiness (Schema.org)
+- Open Graph e Twitter metadata
+- robots.txt liberando indexação
+- preload da imagem principal e lazy loading nas imagens das soluções
+- imagens novas já aplicadas ao site
+
+Deploy:
+- npm install
+- npm run build
+- saída: dist/public
+
+Pendente após definir o domínio final:
+- adicionar canonical absoluto
+- adicionar og:image absoluto
+- gerar sitemap.xml com a URL final e enviar no Google Search Console
