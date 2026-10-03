@@ -312,3 +312,10 @@ h1 em, h2 em { color: #55d6ff; font-style: normal; }
 .plans-section .all-plans-grid { grid-template-columns:repeat(4, minmax(0, 1fr)); }
 @media (max-width:1000px) { .plans-section .all-plans-grid { grid-template-columns:repeat(2, minmax(0, 1fr)); } }
 @media (max-width:680px) { .plans-section .all-plans-grid { grid-template-columns:1fr; } }
+
+/* SEO service pages internal navigation */
+.seo-service-links { margin-top:22px; padding-top:22px; border-top:1px solid #c7d5db; display:flex; flex-wrap:wrap; align-items:center; gap:9px; }
+.seo-service-links > span { margin-right:4px; color:#6f8a98; font:9px 'DM Mono',monospace; letter-spacing:.08em; text-transform:uppercase; }
+.seo-service-links a { padding:9px 11px; border:1px solid #c7d5db; color:#176c95; background:#fff; font-size:10px; text-decoration:none; transition:border-color .2s ease,color .2s ease; }
+.seo-service-links a:hover { border-color:#55d6ff; color:#0b2438; }
+@media (max-width:680px) { .seo-service-links { align-items:stretch; } .seo-service-links > span { width:100%; } .seo-service-links a { width:100%; } }

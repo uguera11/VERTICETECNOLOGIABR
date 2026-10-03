@@ -6,16 +6,62 @@
     {
       "source": "/sitemap.xml",
       "headers": [
-        { "key": "Content-Type", "value": "application/xml; charset=utf-8" },
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
       ]
     },
     {
       "source": "/robots.txt",
       "headers": [
-        { "key": "Content-Type", "value": "text/plain; charset=utf-8" },
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
       ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/rastreamento-veicular-belo-horizonte",
+      "destination": "/rastreamento-veicular-belo-horizonte/index.html"
+    },
+    {
+      "source": "/rastreamento-veicular-belo-horizonte/",
+      "destination": "/rastreamento-veicular-belo-horizonte/index.html"
+    },
+    {
+      "source": "/rastreamento-de-frotas",
+      "destination": "/rastreamento-de-frotas/index.html"
+    },
+    {
+      "source": "/rastreamento-de-frotas/",
+      "destination": "/rastreamento-de-frotas/index.html"
+    },
+    {
+      "source": "/rastreamento-de-motos",
+      "destination": "/rastreamento-de-motos/index.html"
+    },
+    {
+      "source": "/rastreamento-de-motos/",
+      "destination": "/rastreamento-de-motos/index.html"
+    },
+    {
+      "source": "/rastreamento-nautico",
+      "destination": "/rastreamento-nautico/index.html"
+    },
+    {
+      "source": "/rastreamento-nautico/",
+      "destination": "/rastreamento-nautico/index.html"
     }
   ]
 }

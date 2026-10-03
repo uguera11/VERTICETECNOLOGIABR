@@ -345,6 +345,13 @@ export default function Home() {
               <div className="solution-content"><span className="solution-eyebrow">{eyebrow}</span><h3>{seoTitle}</h3><p>{text}</p><a href={whatsAppLink(`Olá, quero saber mais sobre rastreamento para ${title}.`)} target="_blank" rel="noreferrer" className="text-link">Conhecer esta solução <ArrowUpRight size={15} /></a></div>
             </article>)}
           </div>
+          <nav className="seo-service-links" aria-label="Páginas de serviços de rastreamento">
+            <span>Explore por solução:</span>
+            <a href="/rastreamento-veicular-belo-horizonte/">Rastreamento veicular em Belo Horizonte</a>
+            <a href="/rastreamento-de-motos/">Rastreamento de motos</a>
+            <a href="/rastreamento-de-frotas/">Rastreamento de frotas</a>
+            <a href="/rastreamento-nautico/">Rastreamento náutico</a>
+          </nav>
         </div>
       </section>
 
@@ -354,7 +361,7 @@ export default function Home() {
           <div className="regional-copy"><h2>Rastreamento em Belo Horizonte,<br /><em>Grande BH e Minas Gerais.</em></h2><p>Instalação de rastreadores veiculares, rastreamento de frotas, telemetria e soluções de monitoramento em Belo Horizonte, Contagem, Betim e toda a Grande BH, além de diversas cidades do interior de Minas Gerais.</p></div>
           <div className="regional-map-wrap"><MapView className="regional-map" initialCenter={{ lat: -19.9191, lng: -43.9386 }} initialZoom={9} /><div className="coverage-visual" aria-hidden="true"><span className="coverage-title">MAPA DE COBERTURA</span><span className="coverage-route route-one" /><span className="coverage-route route-two" /><span className="coverage-route route-three" /><span className="coverage-node node-bh"><i />BH</span><span className="coverage-node node-contagem"><i />Contagem</span><span className="coverage-node node-betim"><i />Betim</span><span className="coverage-node node-itauna"><i />Itaúna</span><span className="coverage-node node-divinopolis"><i />Divinópolis</span></div><span className="regional-map-label"><MapPin size={13} /> MINAS GERAIS / ÁREA DE ATENDIMENTO</span></div>
           <div className="regional-cities"><span>BH</span><span>Contagem</span><span>Betim</span><span>Mateus Leme</span><span>Juatuba</span><span>Itaúna</span><span>Divinópolis</span><span>São Gonçalo do Pará</span><span>Abaeté e região</span></div>
-          <div className="regional-address"><MapPin size={17} /><div><span>SEDE VÉRTICE TECNOLOGIA</span><p>Rua Paraíba, 651 · Belo Horizonte, MG · CEP 30130-140</p><a href="https://www.google.com/maps/search/?api=1&query=Rua%20Para%C3%ADba%2C%20651%2C%20Belo%20Horizonte%2C%20MG%2C%2030130-140" target="_blank" rel="noreferrer" className="text-link">Abrir endereço no mapa <ArrowUpRight size={15} /></a></div></div>
+          <div className="regional-address"><MapPin size={17} /><div><span>ATENDIMENTO POR ÁREA DE COBERTURA</span><p>Atendimento no local do cliente em Belo Horizonte, Grande BH e cidades atendidas em Minas Gerais.</p><a href={whatsAppLink("Olá, quero confirmar se a Vértice atende minha cidade.")} target="_blank" rel="noreferrer" className="text-link">Consultar minha região <ArrowUpRight size={15} /></a></div></div>
           <div className="regional-action"><p>Consulte disponibilidade para sua cidade.</p><a href={whatsAppLink("Olá, gostaria de consultar a disponibilidade de atendimento na minha cidade.")} target="_blank" rel="noreferrer" className="button button-primary">Consultar disponibilidade <ArrowUpRight size={17} /></a></div>
         </div>
       </section>
@@ -403,7 +410,7 @@ export default function Home() {
 
       <section className="cta-section" id="contato"><div className="container cta-inner"><div className="cta-orb" /><div className="cta-copy"><span className="section-kicker">A PRÓXIMA DECISÃO É SUA</span><h2>Mais presença.<br /><em>Mais tranquilidade.</em></h2><p>Descubra como a Vértice pode transformar a forma como você cuida do que importa.</p></div><div className="cta-action"><a href={whatsAppLink("Olá, quero encontrar meu plano ideal na Vértice Tecnologia.")} target="_blank" rel="noreferrer" className="button button-primary large">Quero encontrar meu plano <ArrowUpRight size={18} /></a><span>Resposta humana. Sem robô, sem enrolação.</span></div></div></section>
 
-      <footer className="site-footer"><div className="container footer-top"><BrandMark /><div className="footer-nav"><a href="#como-funciona">Como funciona</a><a href="#planos">Planos</a><a href="#atendimento">Atendimento</a><a href="#tecnologia">Tecnologia</a><a href="#duvidas">Dúvidas</a></div><span className="footer-status"><i /> Sistema operacional</span></div><div className="container footer-bottom"><span>© 2026 Vértice Tecnologia. Todos os direitos reservados.</span><span>Feito para você estar presente, mesmo de longe.</span><a href="#top">Voltar ao topo <ArrowUpRight size={14} /></a></div></footer>
+      <footer className="site-footer"><div className="container footer-top"><BrandMark /><div className="footer-nav"><a href="#como-funciona">Como funciona</a><a href="#planos">Planos</a><a href="#atendimento">Atendimento</a><a href="/rastreamento-veicular-belo-horizonte/">Rastreamento veicular</a><a href="/rastreamento-de-frotas/">Frotas</a><a href="/rastreamento-de-motos/">Motos</a><a href="/rastreamento-nautico/">Náutico</a></div><span className="footer-status"><i /> Sistema operacional</span></div><div className="container footer-bottom"><span>© 2026 Vértice Tecnologia. Todos os direitos reservados.</span><span>Feito para você estar presente, mesmo de longe.</span><a href="#top">Voltar ao topo <ArrowUpRight size={14} /></a></div></footer>
     </main>
   );
 }
