@@ -1,0 +1,15 @@
+SEO / GOOGLE SEARCH CONSOLE
+
+Após o deploy na Vercel, confirme no navegador:
+https://www.verticetecnologiamg.com.br/sitemap.xml
+https://www.verticetecnologiamg.com.br/robots.txt
+
+O sitemap deve abrir como XML e o robots.txt como texto puro.
+Depois, no Google Search Console, reenvie:
+https://www.verticetecnologiamg.com.br/sitemap.xml
+
+Correção aplicada:
+- sitemap.xml em client/public
+- robots.txt em client/public
+- removido rewrite global para index.html que poderia interceptar arquivos públicos
+- Content-Type explícito para XML e TXT no vercel.json

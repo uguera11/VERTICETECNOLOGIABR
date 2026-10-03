@@ -75,7 +75,7 @@ const plans: Record<TabKey, PlanGroup> = {
     title: "Veículos leves",
     description: "Rastreamento inteligente para carros e motos, com proteção e controle em cada trajeto.",
     icon: Navigation,
-    image: "/site-assets/vertice-veiculos-leves-generated.png",
+    image: "/site-assets/veiculos-leves.webp",
     plans: [
       {
         name: "Veículos leves",
@@ -100,7 +100,7 @@ const plans: Record<TabKey, PlanGroup> = {
     title: "Proteção & Monitoramento",
     description: "Monitoramento com TEIA para pessoas, crianças, idosos, Alzheimer, TDA, TEA e pets.",
     icon: UserRound,
-    image: "/site-assets/vertice-pessoas-pets-generated.png",
+    image: "/site-assets/pessoas-pets.webp",
     plans: [
       {
         name: "Proteção & Monitoramento",
@@ -125,7 +125,7 @@ const plans: Record<TabKey, PlanGroup> = {
     title: "Linha pesada",
     description: "Visibilidade operacional para vans, ônibus e caminhões, com telemetria e gestão em uma única visão.",
     icon: Truck,
-    image: "/site-assets/vertice-linha-pesada-generated.png",
+    image: "/site-assets/linha-pesada.webp",
     plans: [
       {
         name: "Linha pesada",
@@ -152,7 +152,7 @@ const plans: Record<TabKey, PlanGroup> = {
     title: "Rastreamento Náutico",
     description: "Rastreamento de embarcações em tempo real, com localização pelo aplicativo e acompanhamento dos seus deslocamentos.",
     icon: Anchor,
-    image: "/site-assets/vertice-nautico-generated.png",
+    image: "/site-assets/nautico.webp",
     plans: [
       {
         name: "Rastreamento Náutico",
@@ -174,10 +174,10 @@ const plans: Record<TabKey, PlanGroup> = {
 };
 
 const solutionCards = [
-  { eyebrow: "VEÍCULOS LEVES", title: "Carros e motos", seoTitle: "Rastreamento de carros e motos em Belo Horizonte", text: "Proteção contra roubo, localização em tempo real e mais tranquilidade em cada trajeto, com atendimento em Belo Horizonte e Grande BH.", image: "/site-assets/vertice-veiculos-leves-generated.png", icon: Navigation },
-  { eyebrow: "PROTEÇÃO & MONITORAMENTO", title: "Pessoas, crianças, idosos e pets", seoTitle: "Monitoramento de pessoas, crianças, idosos e pets", text: "TEIA para acompanhar pessoas, Alzheimer, TDA, TEA e pets com localização, cercas inteligentes e alertas no app em Belo Horizonte e Minas Gerais.", image: "/site-assets/vertice-pessoas-pets-generated.png", icon: UserRound },
-  { eyebrow: "LINHA PESADA", title: "Vans, ônibus e caminhões", seoTitle: "Rastreamento de vans, ônibus e caminhões", text: "Gestão e rastreamento de frotas para Belo Horizonte, Contagem, Betim e outras cidades de Minas Gerais, com mais controle da operação.", image: "/site-assets/vertice-linha-pesada-generated.png", icon: Truck },
-  { eyebrow: "RASTREAMENTO NÁUTICO", title: "Barcos, lanchas e jet skis", seoTitle: "Rastreamento de barcos, lanchas e jet skis", text: "Acompanhe sua embarcação em tempo real pelo aplicativo, com histórico de deslocamentos e tecnologia de monitoramento.", image: "/site-assets/vertice-nautico-generated.png", icon: Anchor },
+  { eyebrow: "VEÍCULOS LEVES", title: "Carros e motos", seoTitle: "Rastreamento de carros e motos em Belo Horizonte", text: "Proteção contra roubo, localização em tempo real e mais tranquilidade em cada trajeto, com atendimento em Belo Horizonte e Grande BH.", image: "/site-assets/veiculos-leves.webp", icon: Navigation },
+  { eyebrow: "PROTEÇÃO & MONITORAMENTO", title: "Pessoas, crianças, idosos e pets", seoTitle: "Monitoramento de pessoas, crianças, idosos e pets", text: "TEIA para acompanhar pessoas, Alzheimer, TDA, TEA e pets com localização, cercas inteligentes e alertas no app em Belo Horizonte e Minas Gerais.", image: "/site-assets/pessoas-pets.webp", icon: UserRound },
+  { eyebrow: "LINHA PESADA", title: "Vans, ônibus e caminhões", seoTitle: "Rastreamento de vans, ônibus e caminhões", text: "Gestão e rastreamento de frotas para Belo Horizonte, Contagem, Betim e outras cidades de Minas Gerais, com mais controle da operação.", image: "/site-assets/linha-pesada.webp", icon: Truck },
+  { eyebrow: "RASTREAMENTO NÁUTICO", title: "Barcos, lanchas e jet skis", seoTitle: "Rastreamento de barcos, lanchas e jet skis", text: "Acompanhe sua embarcação em tempo real pelo aplicativo, com histórico de deslocamentos e tecnologia de monitoramento.", image: "/site-assets/nautico.webp", icon: Anchor },
 ];
 
 const allPlans = [plans.personal, plans.fleet, plans.care, plans.nautical].flatMap((group) =>
@@ -206,7 +206,7 @@ const faqs = [
 function BrandMark() {
   return (
     <div className="brand-mark" aria-label="Vértice Tecnologia MG">
-      <img className="official-logo" src="/site-assets/vertice-logo-oficial_97ee8fd8.png" alt="Vértice Tecnologia - rastreamento veicular em Belo Horizonte e Minas Gerais" />
+      <img className="official-logo" src="/site-assets/logo.webp" alt="Vértice Tecnologia - rastreamento veicular em Belo Horizonte e Minas Gerais" />
     </div>
   );
 }
