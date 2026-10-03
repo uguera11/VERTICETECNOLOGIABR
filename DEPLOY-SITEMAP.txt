@@ -1,0 +1,10 @@
+Após o deploy na Vercel, teste ANTES de reenviar ao Google:
+
+https://www.verticetecnologiamg.com.br/sitemap.xml
+https://www.verticetecnologiamg.com.br/robots.txt
+
+O sitemap.xml deve mostrar XML começando com <?xml version="1.0"...>
+O robots.txt deve mostrar texto puro.
+
+Se /sitemap.xml abrir a HOME ou der 404, o deploy/domínio ainda não está usando este commit.
+Se abrir o XML corretamente, no Search Console remova a entrada antiga e envie novamente apenas: sitemap.xml
